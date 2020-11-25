@@ -12,7 +12,7 @@ const App = () => {
       <Header />
       <Router basepath="/MovieApp">
         <Home path="/" />
-        <Movie path="/:movieId" />
+        <Movie path=":movieId" />
         <NotFound default />
       </Router>
       <GlobalStyle />
